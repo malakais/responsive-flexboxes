@@ -147,6 +147,7 @@ picture img {
 
 img {
   object-fit: cover;
+  height: 100;
 }
 
 .overlay {
@@ -456,7 +457,7 @@ a:focus {
     flex-direction: row;
   }
 
-  .panel img {
+  .panel .image-wrapper {
     flex-basis: 40%;
     flex-shrink: 0;
   }
